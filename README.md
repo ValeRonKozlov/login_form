@@ -1,8 +1,8 @@
 # Форма входа с полями email / password и кнопкой войти
 
-# React // TypeScript // WebPack // Cypress Tests
+## React // TypeScript // WebPack // Cypress Tests
 
-# Скрипты
+### Скрипты
 
 npm run build:dev -dev сборка
 
