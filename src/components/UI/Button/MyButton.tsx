@@ -1,9 +1,11 @@
 import './MyButton.css';
 
 
-const  MyButton = () => {
+const  MyButton = (props: any) => {
 	return (
-		<button className='myBtn'> SEnd</button>
+		<button {...props} className='my-btn'>
+			{props.title}
+		</button>
 	)
 }
 

@@ -1,0 +1,17 @@
+.my-input {
+	width: 100%;
+	height: 40px;
+	border: none;
+	background-color: wheat;
+	border-radius: 8px;
+	margin-bottom: 30px;
+	padding: 10px 15px;
+	font-size: 18px;
+	line-height: 100%;
+}
+
+.my-input:focus {
+	outline: 1px solid teal;
+	border: none;
+}
+

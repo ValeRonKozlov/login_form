@@ -1,12 +1,15 @@
-.myBtn {
-	padding: 10px 25px;
+.my-btn {
+	align-self: flex-end;
+	padding: 15px 25px;
 	border-radius: 8px;
 	border: none;
-	background-color: blue;
-	color: white;
+	background-color: wheat;
+	font-size: 18px;
+	line-height: 100%;
 	cursor: pointer;
 }
 
-.myBtn:hover {
-	background-color: aqua;
+.my-btn:hover {
+	background-color: orange;
+	color: #fff;
 }
