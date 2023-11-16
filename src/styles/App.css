@@ -1,0 +1,13 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0;
+	background-color: rgba(114, 114, 122, 0.705);
+	font-size: 16px;
+}

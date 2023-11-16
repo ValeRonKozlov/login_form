@@ -1,0 +1,12 @@
+.myBtn {
+	padding: 10px 25px;
+	border-radius: 8px;
+	border: none;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+
+.myBtn:hover {
+	background-color: aqua;
+}
