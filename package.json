@@ -9,8 +9,8 @@
     "build:prod": "webpack --env mode=production",
     "start": "webpack serve --env port=4242 mode=development",
     "test:cy": "cypress open",
-    "predeploy": "npm run build:prod",
-    "deploy": "gh-pages -d build:prod"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
