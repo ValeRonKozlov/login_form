@@ -1,15 +1,33 @@
 .my-btn {
 	align-self: flex-end;
-	padding: 15px 25px;
-	border-radius: 8px;
-	border: none;
-	background-color: wheat;
-	font-size: 18px;
+	padding: 10px 18px;
+	border-radius: 4px;
+	border: 1px solid whitesmoke;
+	outline: none;
+	background-color: transparent;
+	font-size: 14px;
 	line-height: 100%;
+	color: whitesmoke;
 	cursor: pointer;
 }
 
+.disabled {
+	pointer-events: none;
+	border: 1px solid #e607e6dc;
+	color:#e607e6dc;
+}
+
 .my-btn:hover {
-	background-color: orange;
-	color: #fff;
+	border: 1px solid #f90;
+	color: #f90;
+}
+
+.my-btn:focus {
+	border: 1px solid #f90;
+	color: #f90;
+}
+
+.my-btn:active {
+	border: 1px solid #ff6600;
+	color: #ff6600;
 }

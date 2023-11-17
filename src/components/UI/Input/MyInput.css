@@ -2,16 +2,65 @@
 	width: 100%;
 	height: 40px;
 	border: none;
-	background-color: wheat;
-	border-radius: 8px;
-	margin-bottom: 30px;
-	padding: 10px 15px;
+	outline: none;
+	border: 1px solid whitesmoke;
+	border-radius: 4px;
+	padding: 0px 15px;
 	font-size: 18px;
 	line-height: 100%;
+	background-color: transparent;
+	color: #fff;
+}
+
+.my-label-input {
+	position: relative;
+	height: 40px;
+	margin-bottom: 30px;
+}
+
+.my-span-input {
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	color: #ffffffa4;
+	background-color: transparent;
+	transition: all .3s ease-in-out;
+	cursor: text;
 }
 
 .my-input:focus {
-	outline: 1px solid teal;
-	border: none;
+	outline: none;
+	border: 1px solid #f90;
 }
 
+.my-input:focus + .my-span-input {
+	top: -15px;
+	left: 8px;
+	font-size: 10px;
+	color: #f90;
+	cursor: pointer;
+}
+
+.my-input.filled {
+	border: 1px solid #f90;
+}
+
+.my-span-input.filled {
+	top: -15px;
+	left: 8px;
+	font-size: 10px;
+	color: #f90;
+	cursor: pointer;
+}
+
+.my-span-error {
+	display: none;
+	padding-left: 8px;
+	font-size: 10px;
+	color: #ff0000;
+	cursor: pointer;
+}
+
+.error {
+	display: block;
+}
